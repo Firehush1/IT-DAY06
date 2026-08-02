@@ -34,7 +34,7 @@ let customer2 = {
         salary: 10000,
         items: ["item1", "item2", "item3"],
         father: {
-            name: "John",
+            name: "slash",
             age: 60,
             address: "USA"
         }
