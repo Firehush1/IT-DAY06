@@ -44,4 +44,5 @@ let customer2 = {
         // console.log(customer2.age);
         // console.log(customer2.address);
         // console.log(customer2.salary);
-        console.log(customer2.items.includes("item2"));
+        console.log(customer2.items[1]);
+        console.log(customer2.father.name);
