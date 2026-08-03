@@ -84,4 +84,6 @@ console.log(document.title);
 
 let heading = document.getElementById("heading");
 
+heading.innerHTML = "HUSH";
+
 console.log(heading);
