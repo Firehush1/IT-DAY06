@@ -76,3 +76,4 @@ let customer2 = {
 console.log (customer2.items[0].variants[1]);
 
 
+//DOM (Document Object Model) Manipulation - HTML, CSS, JS
