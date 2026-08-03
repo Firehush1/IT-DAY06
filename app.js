@@ -71,5 +71,6 @@ let customer2 = {
 // console.log(customer2.age);
 // console.log(customer2.address);
 // console.log(customer2.salary);
-console.log(customer2.items[1]);
-console.log(customer2.father.name);
+// console.log(customer2.items[1]);
+// console.log(customer2.father.name);
+console.log (customer2.items[0].variants[1]);
