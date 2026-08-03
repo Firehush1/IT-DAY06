@@ -77,6 +77,11 @@ let customer2 = {
 
 
 //DOM (Document Object Model) Manipulation - HTML, CSS, JS
-document.write("<h1>POWER</h1>");
+// document.write("<h1>POWER</h1>");
 
 console.log(document.title);
+
+
+let heading = document.getElementById("heading");
+
+console.log(heading);
