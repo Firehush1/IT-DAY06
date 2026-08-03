@@ -73,7 +73,10 @@ let customer2 = {
 // console.log(customer2.salary);
 // console.log(customer2.items[1]);
 // console.log(customer2.father.name);
-console.log (customer2.items[0].variants[1]);
+// console.log (customer2.items[0].variants[1]);
 
 
 //DOM (Document Object Model) Manipulation - HTML, CSS, JS
+document.write("<h1>POWER</h1>");
+
+console.log(document.title);
