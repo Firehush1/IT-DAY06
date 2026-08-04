@@ -89,8 +89,10 @@ let parammmm = document.getElementById("parrrrra");
 
 // console.log(heading);
 
+
+let number = 0;
 function changeHeading() {
-    heading.innerText = "SHRADDA";
+    heading.innerText = "SHRADDA"+" "+number++;
     console.log("clicking"); 
 }
 
