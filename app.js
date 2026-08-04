@@ -83,14 +83,20 @@ console.log(document.title);
 
 
 let heading = document.getElementById("heading");
+let parammmm = document.getElementById("parrrrra");
 
 // heading.innerHTML = "HUSH";
 
 // console.log(heading);
 
 function changeHeading() {
-    heading.innerText = "Shradda";
-    console.log("Clicked");
+    heading.innerText = "SHRADDA";
+    console.log("clicking"); 
+}
+
+function changetopic() {
+    parammmm.innerText =" hey HUSH";
+    console.log("clicking");
     
     
 }
