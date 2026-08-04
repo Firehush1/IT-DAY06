@@ -93,12 +93,12 @@ let parammmm = document.getElementById("parrrrra");
 let number = 0;
 function changeHeading() {
     heading.innerText = "SHRADDA"+" "+number++;
-    console.log("clicking"); 
+    console.log("+"); 
 }
 
 function changetopic() {
-    parammmm.innerText =" hey HUSH";
-    console.log("clicking");
+    parammmm.innerText =" hey HUSH"+" "+number--;
+    console.log("-");
     
     
 }
