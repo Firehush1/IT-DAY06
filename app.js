@@ -84,6 +84,13 @@ console.log(document.title);
 
 let heading = document.getElementById("heading");
 
-heading.innerHTML = "HUSH";
+// heading.innerHTML = "HUSH";
 
-console.log(heading);
+// console.log(heading);
+
+function changeHeading() {
+    heading.innerText = "Shradda";
+    console.log("Clicked");
+    
+    
+}
