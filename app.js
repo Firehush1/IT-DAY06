@@ -90,25 +90,31 @@ let parammmm = document.getElementById("parrrrra");
 // console.log(heading);
 
 
-let number = 0;
-function increaseValue() {
-    heading.innerText = "SHRADDA"+" "+(++number);
-    console.log("wadi karanna"); 
+// let number = 0;
+// function increaseValue() {
+//     heading.innerText = "SHRADDA"+" "+(++number);
+//     console.log("wadi karanna"); 
 
 
     
 
-}
+// }
 
-function decreaseValue() {
-  heading.innerText = "SHRADDA"+" "+(--number);
-   console.log("adu karanna");
+// function decreaseValue() {
+//   heading.innerText = "SHRADDA"+" "+(--number);
+//    console.log("adu karanna");
     
-}
+// }
+
+// function changeHeading() {
+//     parammmm.innerText =" hey HUSH"+" "+(number--);
+//     console.log("adu karanna");
+    
+    
+// }
 
 function changeHeading() {
-    parammmm.innerText =" hey HUSH"+" "+(number--);
-    console.log("adu karanna");
-    
+    let txtInput = document.getElementById("inputText");
+    console.log(txtInput.value);
     
 }
