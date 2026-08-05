@@ -126,6 +126,10 @@ function changeHeading() {
   heading.innerText=userInput;  
 }
 
-function name(params) {
+function () {
+    
+}
+
+function () {
     
 }
