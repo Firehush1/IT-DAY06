@@ -114,7 +114,16 @@ let parammmm = document.getElementById("parrrrra");
 // }
 
 function changeHeading() {
+
     let txtInput = document.getElementById("inputText");
-    console.log(txtInput.value);
+
+    let userInput = txtInput.value;
+
+    console.log(userInput);
+    
+    let heading = document.getElementById("heading");
+
+  heading.innerText=userInput;
+
     
 }
