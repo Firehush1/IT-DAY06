@@ -91,8 +91,8 @@ let parammmm = document.getElementById("parrrrra");
 
 
 let number = 0;
-function changeHeading() {
-    heading.innerText = "SHRADDA"+" "+number++;
+function increaseValue() {
+    heading.innerText = "SHRADDA"+" "+(++number);
     console.log("wadi karanna"); 
 
 
@@ -100,14 +100,14 @@ function changeHeading() {
 
 }
 
-function increaseValue() {
-  heading.innerText = "SHRADDA"+" "+number--;
+function decreaseValue() {
+  heading.innerText = "SHRADDA"+" "+(--number);
    console.log("adu karanna");
     
 }
 
-function decreaseValue() {
-    parammmm.innerText =" hey HUSH"+" "+number--;
+function changeHeading() {
+    parammmm.innerText =" hey HUSH"+" "+(number--);
     console.log("adu karanna");
     
     
