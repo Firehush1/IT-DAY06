@@ -123,7 +123,9 @@ function changeHeading() {
     
     let heading = document.getElementById("heading");
 
-  heading.innerText=userInput;
+  heading.innerText=userInput;  
+}
 
+function name(params) {
     
 }
