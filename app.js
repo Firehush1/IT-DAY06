@@ -106,7 +106,7 @@ function increaseValue() {
     
 }
 
-function changetopic() {
+function decreaseValue() {
     parammmm.innerText =" hey HUSH"+" "+number--;
     console.log("adu karanna");
     
