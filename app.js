@@ -126,10 +126,14 @@ function changeHeading() {
   heading.innerText=userInput;  
 }
 
-function () {
+function changeHeading1 () {
+    
+    console.log("addition");
     
 }
 
-function () {
+function changeHeading2 () {
+ 
+    console.log("subtraction");
     
 }
