@@ -133,6 +133,7 @@ function btnSumOnAction () {
     let sum = parseInt(input01)+parseInt(input02);
     // let sum = Number(input01)+ Number(input02);
 
+    document.getElementById("heading").innerText="SUM : "+sum
     console.log(input01);
     console.log(input02);
     console.log(sum);
