@@ -130,7 +130,7 @@ function btnSumOnAction () {
     let input01 = document.getElementById("txtInput01").value;
     let input02 = document.getElementById("txtInput02").value;
 
-    let sum = input01+input02
+    let sum = Number(input01)+ Number(input02);
 
     console.log(input01);
     console.log(input02);
