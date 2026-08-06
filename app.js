@@ -96,21 +96,21 @@ let parammmm = document.getElementById("parrrrra");
 //     console.log("wadi karanna"); 
 
 
-    
+
 
 // }
 
 // function decreaseValue() {
 //   heading.innerText = "SHRADDA"+" "+(--number);
 //    console.log("adu karanna");
-    
+
 // }
 
 // function changeHeading() {
 //     parammmm.innerText =" hey HUSH"+" "+(number--);
 //     console.log("adu karanna");
-    
-    
+
+
 // }
 
 function changeHeading() {
@@ -120,31 +120,36 @@ function changeHeading() {
     let userInput = txtInput.value;
 
     console.log(userInput);
-    
+
     let heading = document.getElementById("heading");
 
-  heading.innerText=userInput;  
+    heading.innerText = userInput;
 }
 
-function btnSumOnAction () {
+function btnSumOnAction() {
     let input01 = document.getElementById("txtInput01").value;
     let input02 = document.getElementById("txtInput02").value;
 
-    let sum = parseInt(input01)+parseInt(input02);
+    let sum = parseInt(input01) + parseInt(input02);
     // let sum = Number(input01)+ Number(input02);
 
-    document.getElementById("heading").innerText="SUM : "+sum
+    document.getElementById("heading").innerText = "SUM : " + sum
     console.log(input01);
     console.log(input02);
     console.log(sum);
-    
 
-
-    
 }
 
-function changeHeading2 () {
- 
-    console.log("subtraction");
-    
+function btnADUOnAction() {
+    let input01 = document.getElementById("txtInput01").value;
+    let input02 = document.getElementById("txtInput02").value;
+
+    let sum = parseInt(input01) - parseInt(input02);
+    // let sum = Number(input01)- Number(input02);
+
+    document.getElementById("heading").innerText = "SUM : " + sum
+    console.log(input01);
+    console.log(input02);
+    console.log(sum);
+
 }
