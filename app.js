@@ -164,11 +164,9 @@ function btnADUOnAction() {
 function btnAddCustomerOnAction(){
     let txtName = document.getElementById("txtName").value;
     let txtAddress = document.getElementById("txtAddress").value;
-    let txtName = document.getElementById("txtAge");
-    let txtAddress = document.getElementById("txtEmail");
-    let txtName = document.getElementById("txtSalary");
-
-}
+    let txtAge = document.getElementById("txtAge").value;
+    let txtEmail = document.getElementById("txtEmail").value;
+    let txtSalary = document.getElementById("txtSalary").value;
 
 console.log(txtName);
 console.log(txtAddress);
@@ -176,6 +174,9 @@ console.log(txtAge);
 console.log(txtEmail);
 console.log(txtSalary);
 
+// alert(txtName);
+
+}
 
 
 
