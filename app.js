@@ -163,5 +163,19 @@ function btnADUOnAction() {
 
 function btnAddCustomerOnAction(){
     let txtName = document.getElementById("txtName");
+    let txtAddress = document.getElementById("txtAddress");
+    let txtName = document.getElementById("txtAge");
+    let txtAddress = document.getElementById("txtEmail");
+    let txtName = document.getElementById("txtSalary");
 
 }
+
+console.log(txtName);
+console.log(txtAddress);
+console.log(txtAge);
+console.log(txtEmail);
+console.log(txtSalary);
+
+
+
+
