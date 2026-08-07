@@ -160,3 +160,8 @@ function btnADUOnAction() {
 
 }
 //-------------------------------------------------------------------------------------------------------------------
+
+function btnAddCustomerOnAction(){
+    let txtName = document.getElementById("txtName");
+
+}
