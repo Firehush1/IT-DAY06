@@ -162,8 +162,8 @@ function btnADUOnAction() {
 //-------------------------------------------------------------------------------------------------------------------
 
 function btnAddCustomerOnAction(){
-    let txtName = document.getElementById("txtName");
-    let txtAddress = document.getElementById("txtAddress");
+    let txtName = document.getElementById("txtName").value;
+    let txtAddress = document.getElementById("txtAddress").value;
     let txtName = document.getElementById("txtAge");
     let txtAddress = document.getElementById("txtEmail");
     let txtName = document.getElementById("txtSalary");
