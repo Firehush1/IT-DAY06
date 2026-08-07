@@ -124,6 +124,12 @@ function changeHeading() {
     let heading = document.getElementById("heading");
 
     heading.innerText = userInput;
+
+    // let txtInput =document.getElementById("inputText");
+    // console.log(txtInput.value);
+    // let heading = document.getElementById("heading");
+    // heading.innerText=txtInput.value;
+    
 }
 
 function btnSumOnAction() {
