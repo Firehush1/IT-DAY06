@@ -75,7 +75,7 @@ let customer2 = {
 // console.log(customer2.father.name);
 // console.log (customer2.items[0].variants[1]);
 
-
+//---------------------------------------------------------------------------------------------------------------------
 //DOM (Document Object Model) Manipulation - HTML, CSS, JS
 // document.write("<h1>POWER</h1>");
 
@@ -112,7 +112,7 @@ let parammmm = document.getElementById("parrrrra");
 
 
 // }
-
+//---------------------------------------------------------------------------------
 function changeHeading() {
 
     let txtInput = document.getElementById("inputText");
@@ -131,7 +131,7 @@ function changeHeading() {
     // heading.innerText=txtInput.value;
     
 }
-
+//---------------------------------------------------------------
 function btnSumOnAction() {
     let input01 = document.getElementById("txtInput01").value;
     let input02 = document.getElementById("txtInput02").value;
@@ -159,3 +159,4 @@ function btnADUOnAction() {
     console.log(sum);
 
 }
+//-------------------------------------------------------------------------------------------------------------------
