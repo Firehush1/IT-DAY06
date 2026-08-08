@@ -169,13 +169,26 @@ function btnAddCustomerOnAction(){
     let txtEmail = document.getElementById("txtEmail").value;
     let txtSalary = document.getElementById("txtSalary").value;
 
-console.log(txtName);
-console.log(txtAddress);
-console.log(txtAge);
-console.log(txtEmail);
-console.log(txtSalary);
+// console.log(txtName);
+// console.log(txtAddress);
+// console.log(txtAge);
+// console.log(txtEmail);
+// console.log(txtSalary);
 
+let Customer={
+   name:txtName,
+   address:txtAddress,
+   age:txtAge,
+   email:txtEmail,
+   salary:txtSalary
+}
+   
+//console.log(customer);
 // alert(txtName);
+
+customerList.push(Customer);
+   console.log(customerList);
+   
 
 }
 
