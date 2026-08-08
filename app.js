@@ -161,6 +161,7 @@ function btnADUOnAction() {
 }
 //-------------------------------------------------------------------------------------------------------------------
 
+let customerList = [];
 function btnAddCustomerOnAction(){
     let txtName = document.getElementById("txtName").value;
     let txtAddress = document.getElementById("txtAddress").value;
